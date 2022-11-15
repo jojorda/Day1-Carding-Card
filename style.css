@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    border: 40px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    align-content: center;
+}
+button{
+    position:inherit;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+.img {
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border: 1px solid #eaeaea;
+    align-content: 1px center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    width: 500px;
+    box-shadow: 2px 2px 10px rgb(228, 206, 206);
+
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+   
+    align-items: center;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
